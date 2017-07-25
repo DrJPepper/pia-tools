@@ -1,14 +1,14 @@
 # Maintainer: Philipp Schmitt (philipp<at>schmitt<dot>co)
 
 pkgname=pia-tools
-pkgver=1.1.1
-pkgrel=2
+pkgver=1.1.1.1
+pkgrel=1
 pkgdesc="OpenVPN hook for privateinternetaccess.com"
 arch=("any")
 url="https://github.com/pschmitt/pia-tools"
 license=("GPL3")
 depends=("transmission-cli" "bind-tools" "openvpn" "systemd" "sudo" "wget" "ufw" "unzip" "sed")
-source=("pia-tools-$pkgver.tar.gz::https://github.com/pschmitt/pia-tools/archive/$pkgver.tar.gz")
+source=("pia-tools-$pkgver.tar.gz::https://github.com/DrJPepper/pia-tools/archive/$pkgver.tar.gz")
 sha256sums=('a884dc99e06b9c4dcb72ea8e4c661ac9b775838ccca6b4aff1526bd4daaccaf9')
 install="${pkgname}.install"
 
